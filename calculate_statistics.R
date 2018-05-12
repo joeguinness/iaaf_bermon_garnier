@@ -76,7 +76,9 @@ which_match <- which( abs( mean_remove - 121.80 ) < 0.005
 
 # print out years and names
 for(j in 1:nrow(which_match)){
-    cat( paste( min_results[ which_match[j,1], 1 ], 
+    cat( paste( round( mean_remove[ which_match[j,,drop=F] ], 3 ), " ",
+                round( sd_remove[ which_match[j,,drop=F] ], 3 ), " ",
+                min_results[ which_match[j,1], 1 ], 
                 min_results[ which_match[j,1], 2 ]," ",
                 min_results[ which_match[j,2], 1 ],
                 min_results[ which_match[j,2], 2 ], "\n" ) )
