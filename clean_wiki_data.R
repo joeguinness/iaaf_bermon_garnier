@@ -47,5 +47,4 @@ clean_data <- function( event ){
 }
 
 clean_data( "800m" )
-clean_data( "400m" )
 
