@@ -1,2 +1,2 @@
-# iaaf800
-Simple analysis of women's 800m times from 2011 and 2013 IAAF world championships
+# iaaf hyperandrogenism study
+A statistical analysis of the statistical analysis in the IAAF hyperandrogenism study by Bermon and Garnier (2017)
